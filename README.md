@@ -1,6 +1,6 @@
-js_playground
+coffee_playground
 =============
-Dispensable Javascript mucking.
+Dispensable Coffeescript mucking.
 
 
 Testing
@@ -11,7 +11,7 @@ If you haven't already, run `npm install testem -g` to globally install testem.
 
 Type `testem` into the terminal and navigate to [localhost:7537](http://localhost:7537)
 
-Just add tests in the `spec/` and code in the `js` folder.
+Just add tests in the `spec/` and code in the `scripts` folder.
 
 
 Pre-loaded Libraries
