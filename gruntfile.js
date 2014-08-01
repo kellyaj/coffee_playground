@@ -10,12 +10,6 @@ module.exports = function(grunt) {
         }
       }
     },
-    watch: {
-     jst: {
-        files: ["js/templates/*.ejs"],
-        tasks: ["jst"]
-      }
-    },
     clean: {
       test: {
         files: [{
@@ -46,7 +40,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-jst');
-  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['jst']);
   grunt.registerTask('compile', ['clean', 'jst', 'coffee']);
